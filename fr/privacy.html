@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Waddle — Politique de confidentialité</title>
+  <meta name="description" content="Politique de confidentialité de l’application Waddle (RGPD, données collectées, durées, droits, cookies, sous-traitants)."/>
+  <style>
+    :root{
+      --emerald:#0ea5a0;    /* vert émeraude */
+      --gold:#c9a227;       /* doré */
+      --beige:#f6f1e8;      /* beige doux */
+      --ink:#0f172a;        /* texte principal */
+      --muted:#475569;      /* texte secondaire */
+      --bg:#ffffff;         /* fond */
+      --card:#ffffff;       /* cartes */
+      --border:#e5e7eb;
+      --link:#0ea5a0;
+      --link-hover:#0b847f;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:linear-gradient(180deg,var(--beige),#fff);}
+    body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu; color:var(--ink); line-height:1.6}
+    .container{max-width:1000px;margin:0 auto;padding:40px 20px}
+    header{
+      background:radial-gradient(1200px 400px at 50% -100px, rgba(14,165,160,.18), transparent),
+                 linear-gradient(0deg,#fff, #fff0);
+      border-bottom:1px solid var(--border);
+    }
+    .hero{
+      max-width:1000px;margin:0 auto; padding:64px 20px 32px 20px;
+    }
+    .badge{display:inline-flex;gap:8px;align-items:center;background:#0ea5a015;color:var(--emerald);border:1px solid #0ea5a033;padding:6px 12px;border-radius:999px;font-weight:600;font-size:12px;letter-spacing:.3px;text-transform:uppercase}
+    h1{font-size:40px;line-height:1.1;margin:16px 0 8px 0}
+    .subtitle{color:var(--muted)}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); padding:28px}
+    nav.toc{position:sticky; top:18px}
+    .grid{display:grid; grid-template-columns: 280px 1fr; gap:24px; align-items:start}
+    .toc a{display:block; padding:8px 10px; margin:4px 0; border-radius:12px; color:var(--ink); text-decoration:none; border:1px solid transparent}
+    .toc a:hover{background:#fff; border-color:var(--border)}
+    h2{font-size:26px; margin:28px 0 12px}
+    h3{font-size:20px; margin:20px 0 8px}
+    a{color:var(--link); text-underline-offset:3px}
+    a:hover{color:var(--link-hover)}
+    .note{background:#fff7e6; border:1px solid #fde68a; padding:14px 16px; border-radius:12px}
+    footer{margin:40px 0 20px; color:var(--muted); font-size:14px}
+    .kicker{color:#a3a3a3; font-size:13px}
+    .pill{display:inline-block; padding:2px 8px; border:1px solid var(--border); border-radius:999px; font-size:12px; color:var(--muted)}
+    .hl{color:var(--gold); font-weight:700}
+    .callout{border-left:4px solid var(--emerald); padding-left:14px; margin:14px 0}
+    @media (max-width: 900px){
+      .grid{grid-template-columns:1fr; }
+      nav.toc{position:static}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <span class="badge">Waddle &nbsp;•&nbsp; Politique de confidentialité</span>
+      <h1>Politique de confidentialité</h1>
+      <p class="subtitle">Dernière mise à jour : <strong>5 octobre 2025</strong></p>
+      <p class="subtitle">Cette politique explique quelles données nous collectons, pourquoi, comment nous les utilisons et les droits dont vous disposez, conformément au RGPD et aux exigences des boutiques d’applications.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <nav class="toc card">
+        <strong>Sommaire</strong>
+        <a href="#identite">1. Qui est responsable&nbsp;?</a>
+        <a href="#portee">2. Portée de la politique</a>
+        <a href="#donnees">3. Données que nous collectons</a>
+        <a href="#sources">4. D’où proviennent les données&nbsp;?</a>
+        <a href="#finalites">5. Finalités & bases légales</a>
+        <a href="#partage">6. Partage & sous-traitants</a>
+        <a href="#transferts">7. Transferts hors UE/EEE</a>
+        <a href="#durees">8. Durées de conservation</a>
+        <a href="#securite">9. Sécurité</a>
+        <a href="#droits">10. Vos droits (RGPD)</a>
+        <a href="#cookies">11. Cookies & traceurs</a>
+        <a href="#enfants">12. Enfants</a>
+        <a href="#modifs">13. Modifications</a>
+        <a href="#contact">14. Contact & réclamations</a>
+      </nav>
+
+      <article class="card">
+        <section id="identite">
+          <h2>1. Qui est responsable&nbsp;?</h2>
+          <p>Le responsable du traitement est : <strong>Waddle</strong> (<em>[dénomination légale si différente]</em>), dont le siège social est situé à <em>[Adresse complète]</em>. Courriel : <a href="mailto:support@waddle.app">support@waddle.app</a>.</p>
+          <p>Si vous avez nommé un délégué à la protection des données (DPO) : <em>[Nom du DPO, contact]</em>. À défaut, adressez vos demandes à l’adresse ci-dessus.</p>
+        </section>
+
+        <section id="portee">
+          <h2>2. Portée de la politique</h2>
+          <p>Cette politique s’applique à l’application mobile Waddle, à nos sites web associés (ex. <code>waddle.app</code>) et aux services connexes (support, notifications, abonnements).</p>
+        </section>
+
+        <section id="donnees">
+          <h2>3. Données que nous collectons</h2>
+          <ul>
+            <li><strong>Identité & compte</strong> : nom, adresse e-mail, identifiants d’authentification (via Apple, Google ou e-mail/mot de passe), photo de profil (si fournie).</li>
+            <li><strong>Données d’app</strong> : dépenses, transferts, catégories, récurrences, devise, préférences, relations/partage (ex. couple), pièces jointes que vous ajoutez.</li>
+            <li><strong>Abonnements & paiements</strong> : informations techniques liées aux achats <em>in-app</em> (identifiants produits, reçus/jetons de validation, état de l’abonnement) — la transaction est traitée par l’App Store ou Google Play, pas par Waddle.</li>
+            <li><strong>Appareils & diagnostics</strong> : modèle d’appareil, OS, identifiants publicitaires/notification (par ex. tokens de notifications push), logs techniques, performances, crash reports.</li>
+            <li><strong>Support</strong> : contenu de vos demandes, pièces jointes, métadonnées.</li>
+            <li><strong>Localisation</strong> : uniquement si vous l’autorisez et si une fonctionnalité en a besoin (ex. suggestions liées à la devise), sinon non collectée.</li>
+          </ul>
+          <p class="note">Nous ne collectons pas vos coordonnées bancaires. En cas de connexion à un agrégateur bancaire tierce (ex. Powens), les données sont traitées selon leurs politiques et vos autorisations spécifiques.</p>
+        </section>
+
+        <section id="sources">
+          <h2>4. D’où proviennent les données&nbsp;?</h2>
+          <ul>
+            <li><strong>Directement auprès de vous</strong> : lors de la création de compte, l’utilisation de l’app et vos échanges avec le support.</li>
+            <li><strong>Plateformes</strong> : Apple App Store / Google Play pour la validation d’achats in-app et l’état d’abonnement.</li>
+            <li><strong>Sous-traitants</strong> : services d’authentification, d’envoi de notifications, de base de données et d’analytique (voir section 6).</li>
+          </ul>
+        </section>
+
+        <section id="finalites">
+          <h2>5. Finalités & bases légales</h2>
+          <div class="callout">
+            <p class="kicker pill">Bases légales (RGPD art. 6)</p>
+            <p>Contrat, Intérêt légitime, Consentement, Obligation légale.</p>
+          </div>
+          <ul>
+            <li><strong>Fournir le service</strong> (contrat) : créer/tenir votre compte, synchroniser vos données, assurer les fonctionnalités (dépenses, transferts, récurrences, multi-devises, etc.).</li>
+            <li><strong>Abonnements</strong> (contrat/obligation légale) : permettre l’achat, valider l’éligibilité, gérer l’état et la facturation via Apple/Google.</li>
+            <li><strong>Sécurité & intégrité</strong> (intérêt légitime/obligation) : prévention des abus/fraudes, diagnostic incidents, journalisation.</li>
+            <li><strong>Notifications</strong> (intérêt légitime/consentement selon la plateforme) : rappels, alertes, messages de service. Vous pouvez gérer vos préférences dans l’OS.</li>
+            <li><strong>Amélioration produit & stats</strong> (intérêt légitime/consentement) : mesures anonymisées/agrégées. Lorsque requis, nous demandons votre consentement.</li>
+            <li><strong>Conformité légale</strong> (obligation) : réponses aux autorités lorsque la loi l’exige.</li>
+          </ul>
+        </section>
+
+        <section id="partage">
+          <h2>6. Partage & sous-traitants</h2>
+          <p>Nous ne vendons pas vos données. Nous les partageons uniquement avec :</p>
+          <ul>
+            <li><strong>Fournisseurs techniques</strong> (hébergement, base de données, authentification, analytics, crash) — ex. <em>Google Firebase (Auth, Firestore, Storage, Cloud Functions), Google Crashlytics/Analytics</em>.</li>
+            <li><strong>Gestion des abonnements</strong> — <em>Apple App Store, Google Play</em> (achats) et <em>RevenueCat</em> (médiation/validation d’abonnements).</li>
+            <li><strong>Notifications push</strong> — ex. <em>Expo/FCM/APNs</em>.</li>
+            <li><strong>Support</strong> — outils de ticketing/messagerie si utilisés (<em>[préciser]</em>).</li>
+            <li><strong>Partage volontaire</strong> : avec vos proches/partenaires si vous les invitez dans Waddle (relations/espaces partagés).</li>
+            <li><strong>Autorités</strong> : si la loi l’impose.</li>
+          </ul>
+          <p>Nos prestataires agissent sur instructions de Waddle, selon des contrats conformes au RGPD.</p>
+        </section>
+
+        <section id="transferts">
+          <h2>7. Transferts hors UE/EEE</h2>
+          <p>Certaines données peuvent être traitées en dehors de l’UE/EEE (ex. États-Unis). Lorsque c’est le cas, nous mettons en place des garanties appropriées : <em>Clauses Contractuelles Types (SCC)</em> de la Commission européenne et mesures complémentaires, le cas échéant.</p>
+        </section>
+
+        <section id="durees">
+          <h2>8. Durées de conservation</h2>
+          <ul>
+            <li><strong>Compte & contenus</strong> : pendant la durée d’utilisation, puis suppression ou anonymisation dans un délai raisonnable après clôture.</li>
+            <li><strong>Logs & sécurité</strong> : durées courtes nécessaires au diagnostic (généralement 3 à 12 mois).</li>
+            <li><strong>Abonnements</strong> : preuves d’achat et éléments nécessaires conservés selon les obligations légales (ex. comptables/fiscales).</li>
+            <li><strong>Support</strong> : le temps de traiter la demande puis archivage limité.</li>
+          </ul>
+        </section>
+
+        <section id="securite">
+          <h2>9. Sécurité</h2>
+          <p>Nous mettons en œuvre des mesures techniques et organisationnelles appropriées (chiffrement en transit, contrôles d’accès, sauvegardes, journalisation, bonnes pratiques de développement). Aucun système n’étant infaillible, nous vous recommandons de protéger votre appareil et vos identifiants.</p>
+        </section>
+
+        <section id="droits">
+          <h2>10. Vos droits (RGPD)</h2>
+          <p>Vous pouvez exercer : droit d’accès, rectification, effacement, limitation, opposition, portabilité, et, le cas échéant, retrait du consentement. Pour cela, contactez-nous à <a href="mailto:support@waddle.app">support@waddle.app</a> en précisant votre demande et l’adresse liée au compte.</p>
+          <p>Vous pouvez également définir des directives sur le sort de vos données après votre décès lorsque la loi locale le permet.</p>
+        </section>
+
+        <section id="cookies">
+          <h2>11. Cookies & traceurs</h2>
+          <p><strong>Application mobile</strong> : pas de cookies au sens navigateur, mais des identifiants techniques peuvent être utilisés pour la connexion, la sécurité, les notifications ou la mesure d’usage (conforme aux règles Apple/Google). Vous pouvez gérer certains consentements dans l’app ou dans les réglages de l’OS (notifications, identifiant publicitaire).</p>
+          <p><strong>Site web</strong> : si des cookies analytiques/mesure d’audience sont utilisés, ils sont configurés avec une durée limitée et, lorsque requis, soumis à votre consentement via un bandeau de choix. Vous pouvez modifier vos préférences à tout moment (<em>[lien vers le centre de préférences cookies]</em>).</p>
+        </section>
+
+        <section id="enfants">
+          <h2>12. Enfants</h2>
+          <p>Waddle n’est pas destiné aux enfants en dessous de l’âge requis par la loi locale. Nous ne collectons pas sciemment de données d’enfants sans consentement approprié. Si vous pensez qu’un enfant nous a fourni des données, contactez-nous pour suppression.</p>
+        </section>
+
+        <section id="modifs">
+          <h2>13. Modifications</h2>
+          <p>Nous pouvons mettre à jour cette politique pour des raisons juridiques, techniques ou opérationnelles. Si les changements sont substantiels, nous vous en informerons par un moyen approprié. La date de « dernière mise à jour » ci-dessus reflète la version en vigueur.</p>
+        </section>
+
+        <section id="contact">
+          <h2>14. Contact & réclamations</h2>
+          <p>Contact : <a href="mailto:contact@waddle.fr">contact@waddle.fr</a></p>
+          <p>Autorité de contrôle : vous pouvez adresser une réclamation auprès de la CNIL (France) ou de votre autorité locale de protection des données.</p>
+
+          <hr style="margin:24px 0;border:none;border-top:1px solid var(--border)" />
+          <p class="kicker">Transparence : cette politique couvre notamment Firebase, RevenueCat, App Store / Google Play, notifications push et analytics, afin de répondre aux exigences des plateformes et du RGPD.</p>
+        </section>
+      </article>
+    </div>
+
+    <footer>
+      © <span id="year"></span> Waddle. Tous droits réservés.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
